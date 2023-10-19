@@ -12,10 +12,10 @@ function getFormvalue() {
     var lastName = lastNameInput.value;
 
     // Display the values in an alert
-    alert("First name: " + firstName + "\nLast Name: " + lastName);
+    alert(  firstName + " " + lastName);
 
    
-   
+    return false;
 }
     
    
